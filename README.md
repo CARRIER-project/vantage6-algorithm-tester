@@ -20,3 +20,16 @@ The current input file contains a dict with input parameters that looks like the
 ```shell
 {'method': 'column_names'}
 ```
+
+The output file can be found in `data/output`.
+Our algorithm outputs to pickle by default.
+We can check the output in our case as follows:
+```python
+import pickle
+with open('./data/output', 'rb') as f:
+    output = pickle.load(f)
+ 
+print(output)
+
+# Output: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'class']
+```
