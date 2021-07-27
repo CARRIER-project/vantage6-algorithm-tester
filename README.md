@@ -10,7 +10,7 @@ Run the script as follows:
 
 For our example this would be:
 ```shell
-./run_algorithm.sh `harbor2.vantage6.ai/testing/v6-test-py`
+./run_algorithm.sh harbor2.vantage6.ai/testing/v6-test-py
 ```
 
 The script will supply the algorithm with the files in the `data/` directory. The default input 
