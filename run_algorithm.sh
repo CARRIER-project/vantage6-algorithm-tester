@@ -4,7 +4,7 @@ DOCKER_IMAGE=$1
 
 echo Testing $DOCKER_IMAGE
 
-docker run -v $PWD/input.pkl:/app/input.pkl \
+docker run --rm \
 -v $PWD/data:/data \
 -e INPUT_FILE=/data/input.pkl \
 -e TOKEN_FILE=/data/token.txt \
