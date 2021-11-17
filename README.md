@@ -5,7 +5,7 @@ Pick the vantage6 algorithm of your choice. It could be your own docker image. W
 
 Run the script as follows:
 ```shell
-./run_algorithm.sh DOCKERFILE
+./run_algorithm.sh DOCKER_IMAGE
 ```
 
 For our example this would be:
