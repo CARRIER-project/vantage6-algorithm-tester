@@ -6,7 +6,7 @@ echo Testing $DOCKER_IMAGE
 
 docker run --rm \
 -v $PWD/data:/data \
--e INPUT_FILE=/data/input.pkl \
+-e INPUT_FILE=/data/input.json \
 -e TOKEN_FILE=/data/token.txt \
 -e DATABASE_URI=/data/iris.csv \
 -e OUTPUT_FILE=/data/output \
