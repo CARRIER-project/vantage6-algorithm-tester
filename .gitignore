@@ -129,3 +129,6 @@ dmypy.json
 .pyre/
 .idea/
 data/output
+
+# Custom input files
+data/input.json
